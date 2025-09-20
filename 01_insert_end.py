@@ -1,0 +1,5 @@
+n = int(input("Enter size of array: "))
+arr = list(map(int, input(f"Enter {n} elements: ").split()))
+val = int(input("Enter element to insert: "))
+arr.append(val)
+print("Array after insertion:", arr)
